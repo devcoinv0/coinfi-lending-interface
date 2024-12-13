@@ -16,8 +16,8 @@ export function MainLayout({ children }: { children: ReactNode }) {
           flexDirection: 'column',
           flex: 1,
           backgroundColor: 'rgba(255, 255, 255, 0.2)', // Semi-transparent white
-          backdropFilter: 'blur(10px)', // Adds the glassmorphism effect
-          WebkitBackdropFilter: 'blur(10px)', // For Safari support
+          // backdropFilter: 'blur(10px)', // Adds the glassmorphism effect
+          // WebkitBackdropFilter: 'blur(10px)', // For Safari support
         }}
       >
         {children}
