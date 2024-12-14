@@ -21,7 +21,7 @@ export const TopInfoPanel = ({
   return (
     <Box
       sx={{
-        bgcolor: 'background.header',
+        bgcolor: 'background.default',
         pt: { xs: 10, md: 12 },
         pb: { xs: 18, md: 20, lg: '94px', xl: '92px', xxl: '96px' },
         color: '#F1F1F3',
@@ -44,7 +44,7 @@ export const TopInfoPanel = ({
             sx={{
               display: 'flex',
               alignItems: 'flex-start',
-              gap: { xs: 3, xsm: 8 },
+              gap: { xs: 2, xsm: 2 },
               flexWrap: 'wrap',
               width: '100%',
             }}

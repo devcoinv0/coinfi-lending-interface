@@ -33,6 +33,10 @@ export const TopInfoPanelItem = ({
         display: 'flex',
         alignItems: 'center',
         width: { xs: 'calc(50% - 12px)', xsm: 'unset' },
+        border: '1px solid #EBEBED1F',
+        borderRadius: '8px',
+        padding: 4,
+        backgroundColor: 'rgba(255, 255, 255, 0.1)',
       }}
     >
       {withLine && (

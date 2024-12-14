@@ -840,7 +840,6 @@ msgstr "DAI balance will be converted via DSR contracts and then supplied as sDA
 msgid "Dark mode"
 msgstr "Dark mode"
 
-#: src/modules/dashboard/DashboardTopPanel.tsx
 #: src/ui-config/menu-items/index.tsx
 msgid "Dashboard"
 msgstr "Dashboard"
@@ -2873,11 +2872,6 @@ msgstr "View Bridge Transactions"
 #: src/modules/bridge/BridgeTransactionListItem.tsx
 msgid "View TX"
 msgstr "View TX"
-
-#: src/modules/dashboard/DashboardContentWrapper.tsx
-#: src/modules/dashboard/DashboardContentWrapper.tsx
-msgid "View Transactions"
-msgstr "View Transactions"
 
 #: src/modules/bridge/BridgeWrapper.tsx
 msgid "View all"

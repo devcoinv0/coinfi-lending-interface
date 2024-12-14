@@ -9,10 +9,17 @@ export function MainLayout({ children }: { children: ReactNode }) {
   return (
     <>
       <AppHeader />
-      <Box component="main" sx={{ display: 'flex', flexDirection: 'column', flex: 1 }}>
+      <Box
+        component="main"
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          flex: 1,
+          backgroundColor: 'rgba(255, 255, 255, 0)',
+        }}
+      >
         {children}
       </Box>
-
       <AppFooter />
       <FeedbackModal />
     </>
