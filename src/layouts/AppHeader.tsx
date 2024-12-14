@@ -123,7 +123,8 @@ export function AppHeader() {
           top: 0,
           transition: theme.transitions.create('top'),
           zIndex: theme.zIndex.appBar,
-          bgcolor: theme.palette.background.header,
+          bgcolor: theme.palette.background.default,
+          backdropFilter: 'blur(10px)',
           padding: {
             xs: mobileMenuOpen || walletWidgetOpen ? '8px 20px' : '8px 8px 8px 20px',
             xsm: '8px 20px',

@@ -144,7 +144,7 @@ export const MarketAssetsListMobileItem = ({ ...reserve }: ComputedReserveData) 
         </Box>
       </Row>
       <Button
-        variant="outlined"
+        variant="contained"
         component={Link}
         href={ROUTES.reserveOverview(reserve.underlyingAsset, currentMarket)}
         fullWidth

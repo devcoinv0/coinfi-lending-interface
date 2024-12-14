@@ -9,7 +9,7 @@ import { NetAPYTooltip } from 'src/components/infoTooltips/NetAPYTooltip';
 import { getMarketInfoById } from 'src/components/MarketSwitcher';
 import { FormattedNumber } from 'src/components/primitives/FormattedNumber';
 import { ROUTES } from 'src/components/primitives/Link';
-import { PageTitle } from 'src/components/TopInfoPanel/PageTitle';
+// import { PageTitle } from 'src/components/TopInfoPanel/PageTitle';
 import { useModalContext } from 'src/hooks/useModal';
 import { useProtocolDataContext } from 'src/hooks/useProtocolDataContext';
 import { useWeb3Context } from 'src/libs/hooks/useWeb3Context';
@@ -114,11 +114,11 @@ export const DashboardTopPanel = () => {
       <TopInfoPanel
         titleComponent={
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <PageTitle
+            {/* <PageTitle
               pageTitle={<Trans>Dashboard</Trans>}
               withMarketSwitcher={false}
               bridge={currentNetworkConfig.bridge}
-            />
+            /> */}
             {showMigrateButton && !downToSM && (
               <Box sx={{ alignSelf: 'center', mb: 4, width: '100%' }}>
                 <Link href={ROUTES.marketMigrationTool(currentMarket)}>
@@ -199,7 +199,7 @@ export const DashboardTopPanel = () => {
           </TopInfoPanelItem>
         )}
 
-        {currentAccount && claimableRewardsUsd > 0 && (
+        {currentAccount && (
           <TopInfoPanelItem title={<Trans>Available rewards</Trans>} loading={loading} hideIcon>
             <Box
               sx={{

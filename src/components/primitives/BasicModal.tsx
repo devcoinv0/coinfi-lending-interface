@@ -56,6 +56,7 @@ export const BasicModal = ({
           maxWidth: { xs: '359px', xsm: `${contentMaxWidth}px` },
           maxHeight: 'calc(100vh - 20px)',
           p: 6,
+          bgcolor: '#0c0e13db',
         }}
       >
         {children}

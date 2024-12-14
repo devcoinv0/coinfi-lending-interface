@@ -20,6 +20,7 @@ export const ConnectWalletPaperStaking = ({
     <Paper
       {...rest}
       sx={{
+        backgroundColor: 'background.default',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
